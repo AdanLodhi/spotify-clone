@@ -1,0 +1,97 @@
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* css for root */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+}
+/* css for left div = side nav */
+.left {
+  width: 25vw;
+  color: white;
+}
+/* css for left div box 1 = home */
+
+.home ul li {
+  display: flex;
+  column-gap: 15px;
+  align-items: end;
+  padding-top: 15px;
+  font-weight: 600;
+}
+/* css for left box 2 = library */
+.library {
+  position: relative;
+  min-height: 70vh;
+}
+.heading {
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* css for nav footer */
+.footer-nav {
+  position: absolute;
+  bottom: 0;
+  flex-wrap: wrap;
+  display: flex;
+  font-size: 10px;
+  color: #b3b3b3;
+  gap: 9px;
+  padding: 5px 10px;
+}
+.footer-nav span:hover {
+  cursor: pointer;
+  text-decoration: 2px underline;
+  font-size: 12px;
+  transition: all 0.3s ease-in-out;
+}
+/* css for right div = main content */
+.right {
+  width: 75vw;
+  margin: 7px 0px;
+  
+}
+/* css for right div nav = header */
+.right-nav {
+  justify-content: space-between;
+  padding-inline: 15px;
+  align-items: center;
+  padding: 10px;
+  background-color: #212121;
+  border-radius: 5px;
+}
+.logo-LG {
+  display: flex;
+  gap: 15px;
+  font-size: 15px;
+}
+.right-nav-buttons {
+  display: flex;
+  gap: 15px;
+}
+.log-btn {
+  color: white;
+  background-color: transparent;
+  padding: 5px 15px;
+}
+.log-btn:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.sgn-btn {
+  padding: 5px 7px;
+}
+.sgn-btn:hover {
+  background-color: #212121;
+  color: white;
+  border: 1.5px solid white;
+  padding: 3px 5px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}

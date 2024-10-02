@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify-web player: music for everyone</title>
+    <!-- css file links -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
+    <!-- font awesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- main-container -->
+    <div class="container flex bg-black ">
+      <!-- left div = Aside  -->
+      <div class="left">
+        <!-- box 1 home -->
+        <div class="home rounded bg-gray m-1 p-1">
+          <div class="spotify-logo">
+            <img
+              src="/imges/Spotify-White-Dark-Background-Logo.wine.webp"
+              width="110px"
+              alt="logo"
+            />
+          </div>
+          <ul style="padding-left: 10px">
+            <li><img src="/svg/home.svg" alt="home" />home</li>
+            <li><img src="/svg/search.svg" alt="home" />search</li>
+          </ul>
+        </div>
+        <!-- box 2 library -->
+        <div class="library rounded bg-gray m-1 p-1 color-light">
+          <div class="heading flex">
+            <div class="playlist-svg">
+              <img src="/svg/library.svg" alt="playlist" />
+            </div>
+            <h5 style="padding-inline-end: 5rem; font-size: 14px">
+              your library
+            </h5>
+            <div class="plus grow">
+              <img src="/svg/plus.svg" alt="plus" />
+            </div>
+          </div>
+          <!-- footer of side nav -->
+          <div class="footer-nav">
+            <div>
+              <a
+                href="https://www.spotify.com/pk-en/legal/end-user-agreement"
+              ></a>
+              <span>legal</span>
+            </div>
+            <div>
+              <a href="https://www.spotify.com/pk-en/safetyandprivacy"></a
+              ><span>privacy center </span>
+            </div>
+            <div>
+              <a href="https://www.spotify.com/pk-en/legal/privacy-policy/"></a
+              ><span>privacy policy</span>
+            </div>
+            <div>
+              <a href="https://www.spotify.com/pk-en/legal/cookies-policy/"></a
+              ><span>cookies</span>
+            </div>
+            <div>
+              <a
+                href="https://www.spotify.com/pk-en/legal/privacy-policy/#s3"
+              ></a
+              ><span>about ads</span>
+            </div>
+            <div>
+              <a href="https://www.spotify.com/pk-en/accessibility"></a
+              ><span>accessibility</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- right div = main content -->
+      <div class="right rounded bg-gray">
+        <div class="right-nav flex  ">
+          <div class="logo-LG">
+            <i class="fa-solid fa-chevron-left color-light"></i>
+            <i class="fa-solid fa-chevron-right color-light"></i>
+          </div>
+          <div class="right-nav-buttons">
+            <button class="log-btn  btn-nav">logIn</button>
+            <button class="sgn-btn  btn-nav">singUp</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

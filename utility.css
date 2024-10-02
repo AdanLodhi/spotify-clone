@@ -1,0 +1,40 @@
+.flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+.items-center {
+  align-items: center;
+}
+.border {
+  border: 2px solid blue;
+  margin: 3px;
+}
+.bg-gray {
+  background-color: #121212;
+}
+.bg-dark-gray {
+  background-color: #1f1f1f;
+}
+.bg-black {
+  background-color: black;
+}
+.m-1 {
+  margin: 7px;
+}
+.p-1 {
+  padding: 10px;
+}
+.rounded {
+  border-radius: 10px;
+}
+.color-light {
+  color: #b3b3b3;
+}
+.btn-nav {
+  font-weight: 500;
+  border-radius:3px ;
+  font-size: 15px;
+  border: none;
+}
